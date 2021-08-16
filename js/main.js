@@ -1,6 +1,10 @@
 // mian.js all style change
 
 $(document).ready(function() {
+    $("body").addClass("bg-dark");
+    $("div, div.small, a").removeClass("link-dark").addClass("link-light").addClass("bg-dark");
+    $("a").attr("displaymode", "").attr("displaymode", "dark");
+    $("a.navbar-brand").addClass("text-light");
 
     // 添加切换模式按钮
     $(".navbar-brand").after("" +
